@@ -1,0 +1,1275 @@
+-------------------------------------------------------------------
+Cox Communications ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 2.5
+====Tools====
+- Edgehealth // The primary modem provisioning tool, Search box'sBiggrinocsis CPE, MTA IP, Phone number, MAC Address, Account number, SSN, Address.
+- Inav
+- SL2
+- ICOMS
+- Polaris
+- Optix
+- CATS
+- SOAK
+- Netweather / Digiweather (Las Vegas Call Center Exclusive)
+- Granite
+- Vision Tools
+- KCUI
+- Intermanager
+====IP lookups====
+Method 1.: For Cox IP lookups you can tell the agent to open up the Edgehealth tool and there should be a search box labeled "Docsis CPE" which you can enter an IP Address in and it will return the customers name, phone number and address!
+=================================================================================
+AT&T Uverse ISP Doxing(Employee Method)
+====Tools====
+- G2
+- U.S-DOT // One of at&ts backup tools which means they normally don't use it unless their tools are down!
+- CRM
+- CAP
+- MYCSP
+- Clarify
+- Telegence
+- Enabler
+- CARE
+- OPUS
+- Pheonix
+- PTT
+- NBI
+- SDP
+ 
+====IP lookups====
+Method 1.: For Uverse IP lookups tell the agent to go into the G2 Tool then to go into the trans history search area and there will be 3 search box's:IP, IP Netblock and IP Assigned. Tell them to search the IP address up in the IP search box and it will return a BAN number as a search result, which can then be looked up in CRM for the full account information!
+Method 2.: For Uverse IP lookups tell the agent to open their backup tool called U.S-DOT which can lookup ip's!
+=================================================================================
+Time Warner Cable ISP Doxing(Employee Method)
+====Tools====
+- Real // The primary tier 1 modem provisioning tool, Search Box's:Cable Modem, MTA, CPE
+- Unified // The secondary tier 1 modem provisioning tool, Search Box's:All, Name, Account Number, Phone Number, MAC Address, QMTC, CMTS, Service Area, VOD, HUB, Node.
+- AAD(Advanced Agent Desktop) // The primary tier 1 billing tool.
+- Genocide
+- DOCSIS/ATG(Level 3/Tier 3 Only) // The tier 3 master tool for modem provisioning/billing, Search Box's:Modem Mac, Mta Mac, Modem Ip, Cpe Ip, Mta Ip, Account Number, User ID, Phone Number, Subscriber Name
+- Daycare
+- ACSR
+- ICOMS // The notorious billing system that almost every ISP uses.
+- Big Brother
+- Netcool
+- CSG
+- NYROC(BrightHouse Networks Version of DOCSIS)
+- Arris Workforce Management
+====IP lookups====
+Method 1.:Tell the agent to go into Real and to go to the What is the entity name? tab and then to the What are you looking for? area and then they will be 3 search box's:Cable Modem, MTA and CPE.You can try getting the agent to lookup the IP in the CPE search box and if it returns "discovery not found" which means the search returned no results possibly due to the agents location or what division/market was set on real you can have the agent set the division on real to the one of the IP's location so then when they type the IP in the CPE search box results should come up, another way you can do IP lookups in real is you tell the agent to look the IP up in the Cable Modem search box and it will bring up all mac addresses ever associated with the IP including active and inactive accounts!
+Script:"Hello this is Micheal Jones from Time Warner Cable technical support level 2, all my tools seem to be down like real and unified and I need assistance pulling up this customers account so can you help me? open up the tool real sir and then when you open up real there should be a main search box and just type this IP Address into the box and all the information should come up tell me when you have an account pulled up sir."
+Method 2.:Tell the agent to go into Unified and they will be 11 search box's:All, Name, Account Number, Phone Number, Mac Address, QMTC, CMTS, Service Area, VOD, HUB, Node.Tell the agent to set his division/market to the one associated with the IP's location then tell the agent to type the IP Address in to the search box labeled "All" and all the account results should come up!
+Method 3.: Tell the agent to transfer you to Tier 3/Level 3 and those agents have access to a special tool known as ATG/Docsis.Tell the agent to open DOCSIS up and they will be 9 search box's:CPE IP, MTA IP, Cable Modem IP, Account Number, User ID, Phone Number, Subscribers Name, Modem MAC, MTA Mac.Tell the agent to search the IP Address up in the CPE IP search box and it will return all the information on the customer including the service address, MAC Address of the modem, account holder name and of course a phone number!, make sure to ask for these details nicely.Note*:Some Tier 1/Level 1 agents can open up DOCSIS as well.
+===Format===
+IP:
+Name:
+DL:
+SSN:
+Phone Number:
+Address:
+Account Number:
+Skype:
+MAC Address: // Device MAC // Cable MAC
+Joshua: 189109
+=================================================================================
+Comcast Cable ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 3
+====Tools====
+- Grandslam (No longer used by comcast; Main tool is Einstein now.) // The primary tool that does modem provisioning tasks and can lookup the account by anything, Search Box'sTonguehone Number, Account Number, Postal Address, City/State/Zip, First/Last name, Email Username, IP Address(Greyed out in the new Grandslam (No longer used by comcast; Main tool is Einstein now.) update, useless), DNS Lookup, Ticket Number, CDV(Comcast Digital Voice) Number, MAC Address, Social Network ID, Previous Accounts.
+- Vision
+- Comtrac
+- ASCR
+- Einstein // The help-desk like tool for employees which can also search customer accounts and this tool also replaced the old help desk system known as CASPER, Search Box'sTonguehone Number, Account Number, Postal Address, City/State/Zip, First/Last name, Ticket Number, CMAC, DNS Lookup, Previous Accounts.
+- ERone
+- CSG
+- ITG
+- BAM
+- Competitive Edge
+- Ninjato
+- Daycare
+====IP lookups====
+Method 1.: For Comcast IP lookups you can tell the agent to use the Grandslam (No longer used by comcast; Main tool is Einstein now.) tool which has a search box labeled "IP Address" and have them type the IP into that and it will return all the details on the customer. This method has been patched as of january 2014 the "IP Address" search box has been greyed out!(Patched)
+Method 2.: For Comcast IP lookups you can tell the agent to use the Grandslam (No longer used by comcast; Main tool is Einstein now.) tool which has a search box labeled "DNS Lookup" under the greyed out IP Address box which can also pull accounts up by the IP Address, so just tell the agent to type the IP Address in it and the account results should show up! Normally this search was made for DNS related comcast IPS like this one for example:69.252.250.103, which have the hostname dns101.comcast.net but it seems to also pull up CPE(Customer Premise Equipment) IP's as well, so this looks like a bad implementation error on their end.
+Method 3.: For Comcast IP lookups you can tell the agent to use the Comtrac tool which has a search box labeled "IPV4" which can pull up the customers account details after the agent types the IP address in it so the results should show up.
+Method 4.: For Comcast IP lookups you can tell the agent to use the Einstein tool which has a search box labeled "DNS Lookup" which can pull up accounts by the IP Address and it will return the full account results.
+Method 5.: For Comcast IP lookups you can tell the agent to transfer you to the Network Solutions department and the IP Address search field on their Grandslam (No longer used by comcast; Main tool is Einstein now.)s aren't grayed out and you can do IP searches.
+=================================================================================
+Verizon FiOs ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 3
+====Tools====
+- CoFee
+- CPE Manager
+- Legend
+- Info Desk
+====IP lookups====
+Method 1.: For Verizon FiOs IP lookups you can tell the agent to use the CPE Manager tool which has a STB(Set-Top Box) Tracking tab and on it theres an search box labeled "WAN IP" which you can look the IP Address up in and then it will show how many set box's the customer currently has then you tell the agent to look up the Circuit ID and it will pull up the whole entire account!
+======================================================================================
+Jonathan - Z381533
+David - Z646290
+Shawn - Z411609
+108.0.244.22
+=================================================================================
+Windstream Communications ISP Doxing(Employee Method)
+====Tools====
+- Datacannon
+====IP lookups====
+Method 1.: For Windstream IP lookups tell the agent to open up the Datacannon tool, then on Datacannon you tell the agent to type the IP Address in the search box labeled "IP", it will then return a modem serial number which you ask the agent for nicely and then you can either have the agent lookup the modem serial number in another tool or you can call back and have the modem serial number looked up by another agent!
+=================================================================================
+Wide Open West ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 3
+====Tools====
+- ICOMS // The only tool tier 1 agents have, this is just a basic billing tool to pull up accounts via basic info like address and phone number.
+- M.U.S.T(Modem, Upgrades and Statistics Tool) // The main tier 2 tool used for modem upgrades, can also search modem and CPE ip's to pull up accounts.
+- ALOPA // The tier 3 master tool, can do CPE, MTA and cable modem searches.
+- Spark // The tool agents use to chat with other agents using a chat room system.
+- Kronos // The agents use this tool to clock in/out of their shift.
+====IP lookups====
+Method 1.: For WOW IP Address lookups tell the agent to open the MUST(Modem Upgrades and Statistics Tool) tool and it has a main searchbox for cable modem lookups so just have the agent type the IP address in the main search box labeled "CM IP or MAC Address" and it will pull up the modem information.
+Method 2.: For WOW IP Address lookups tell the agent to transfer you to tier 3 or home networking department.Once your at tier 3 or home networking department, have the agent do a CPE search on the ip using the ALOPA tool.
+=================================================================================
+Suddenlink Communications ISP Doxing(Employee Method)
+===Tiers====
+- 1
+===Tools====
+- ICOMS
+- Mystro
+- Tulse
+====IP lookups====
+Method 1.: For Suddenlink IP Address lookups tell the agent to use the tulse tool and theres a search box thats labeled "Data CPE IP", so have them type the IP address into that and it will pull up the full account results!
+=================================================================================
+CenturyLink ISP Doxing(Employee Method)
+===Tiers====
+- 1
+- 1.5
+===Tools====
+- Radius // Primary tool tier 1.5 uses for CPE IP Searches.
+- RX // Search BoxTongueoll DSLAM
+- KGB2
+- Qview
+- H.S.I // Agent's use this tool to chat with other tier 1's and tier 1.5 agents which can do CPE searches on IP's using Radius.
+- Qrad(User Assigned IP Address)
+- Remedy
+- TRACS
+- MARTENS
+- Ensemble
+====IP lookups====
+Method: For Centurylink IP lookups tell the agent to open up the HSI tool and to open up a chat with a tier 1.5 agent and have the tier 1.5 agent do a cpe search on the IP Address and if it appears out of scope tell the them to transfer you to century legacy support and have them lookup the IP, remember you need a working CUID or they will not provide information.
+Method 2.: For Centurylink IP lookups tell the agent to open up the Qrad tool and on it theres a search box labeled "User Assigned IP" which pulls up the full account.
+=================================================================================
+9C:97:26:59:8B:57
+Frontier Communications ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 3
+====Tools====
+Phone: +18005843384
+- Jwalk //
+- Inet //
+- Spark // Agents use this tool to chat with tier 1's in their team and tier 2's.
+- Peakflow
+- Netcool
+- Solarwinds
+- Nagios
+- DPI // Account Number , SSN , Name , Address
+- Simple // FIOS Uverse Customers
+- DPI // Account Number, SSN, Name, Address
+- Simple // FIOS Uverse Customers
+===IP Lookups===
+Method 1.:For Frontier IP Lookups you tell the agent to transfer you to tier 3 then you use the "" tool.
+=================================================================================
+Optimum Online ISP Doxing(Employee Method)
+===Tools====
+- IDA
+- IDA Lite
+- Boost
+- TriO
+- Sear
+- KDE
+- CableData
+- Groupwise
+- Modem Control
+- ZOOM
+- KOMS
+- Dart
+- Remedy
+===IP Lookups====
+Method 1.: For Optimum Online IP lookups, tell the agent to open up the Sear tool and to do an IP Address search.
+=================================================================================
+Charter Communications ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+====Tools====
+- Sigma // The primary billing tool, Search Box's:First + Last Name, FQID, Address, MAC ID, Email
+- IRIS // The secondary billing tool, Search Box's:First + Last name, Address
+- CSR Admin
+- D.R.U.M // Main tool for modem provisioning tasks and it also can practically search by anything, Search Box's:CPE IP, MTA IP, Modem IP, MAC Address, Address, First + Last Name.
+- Netcool
+- MARS
+- Hammer
+- Webtop
+- Everstream
+- Tekmark Proviser
+===IP Lookups===
+Method 1.: For Charter IP Lookups tell the agent to use the D.R.U.M tool and theres a search box labeled "CPE-IP", so tell the agent to type the IP in that box and it should search for the modem information and a name and mac address should pull up.You then have the agent search the mac address up in CSG and it will pull up the full account information.
+Charter Communications
+Name : Gustavo
+ID : J30
+=================================================================================
+Mediacom Communications ISP Doxing(Employee Method)
+====Tools====
+- ASCR
+- RDP
+====IP Lookups===
+Method 1.:?
+=================================================================================
+AT&T DSL ISP Doxing(Employee Method)
+==Tools==
+- CSR Admin
+- Unisync
+- CPSauce
+- CRM
+- OSS
+===IP Lookups===
+Method 1.: For AT&T DSL IP lookups tell the agent to type the IP Address in the main search criteria box on OSS and it will show if the connection is active and will pull up the current Username of whoever currently has the IP Address assigned to them, you then tell them to look up the username in CRM and it will pull up the rest of the account details.
+=================================================================================
+Clear Wireless ISP Doxing(Employee Method)
+==Tools===
+- Boss
+- Salesforce
+- Blue Avalanche
+- Cheetah
+- Clear Fax
+===IP Lookups===
+Method 1.:For Clear Wireless IP Lookups you transfer to tier 2 then see if they can do a cpe search if not they will transfer you to tier 3 that can do CPE searches.
+=================================================================================
+RCN ISP Doxing(Employee Method)
+===Tools===
+- ICOMS // The notorious billing system that almost every ISP uses.
+- TEAD
+- Lighthouse
+- ASPECT
+- PWS
+- NPAC/LSOA
+- Lotus Notes // The primary feedback system used to write notes on things.
+===IP Lookups===
+Method 1.:
+=================================================================================
+Fairpoint Communications ISP Doxing(Employee Method)
+===Tools===
+?
+=================================================================================
+TalkTalk ISP Doxing(Employee Method)
+===Tools===
+- Singleview // The primary modem provisioning tool.
+- Subportal // The primary billing tool.
+- PortalPay // The secondary billing tool.
+===IP Lookups===
+Method 1. : For TalkTalk IP lookups tell the agent to type the IP Address in singleview!
+=================================================================================
+Sky Broadband ISP Doxing(Employee Method)
+===Tools===
+- Lama
+- SPM (Superman) - IP Lookups
+- Iris
+===IP Lookups===
+Method 1. : For Sky Broadband IP lookups tell the agent to type the IP Address in superman.
+=================================================================================
+====Law Enforcement Impersonation (Subpeona Method)====
+The second way to ISP dox someone is to fake a cop or federal agency of law enforcement to gather information attached to an IP Address.This method is notoriously used by the blackhat hacker killerpop89 before he got owned by cosmo and the rest of ugnazi.Unlike
+employee impersonation this method is a wee bit harder but it is possible. First you want to find the subpoeona compliance line or similiar law enforcement helpline which I will provide all the contact information below for all the common ISP's.Sometimes if you can't social engineer the legal department fully they may keep asking you to send in a subpeona which you can photoshop a legit looking one and to send it in you can use a service like efax (efax.com).After all that is done you should get the information sent to you over phone or over email.
+Hello, I am Robert Traviano. I work for Law Enforcement as I have a subpoena letter - http://prntscr.com/6fuvcq That's a screenshot of the subpoena letter. So I need you to provide information from this IP address - 67.186.175.38 - It is HIGHLY urgent.
+If they don't give you information or refuse to, try this:
+<Employee name>, this is officially unresolved case. FBI are working on this and I am one of them, please look at the subpoena letter. We believe the person of that IP Address is a criminal due to illegal activites online. It is HIGHLY urgent. You could be saving people lives if you help out.
+TL;DR:
+1) Draft up a fake subpoena for the IP adress you're targeting
+2) send the subpoena into the ISP for the IP adress
+3) call legal department after hours, you will be transferred to general support
+4) tell general support you're calling RE: subpoena and tell them you need the information ASAP.
+5) They will happily disclose anything you want to know regarding the account
+=================================================================================
+Paypal
+====Tools====
+- Compass
+- Admin
+=================================================================================
+BellAliant
+====Tools====
+- Singleview
+- CSM
+- INTERNET
+- WEBCARE
+- Infernet
+Number: (888)214-7896
+=================================================================================
+Verizon DSL
+====Tools====
+- Focus Net, STB - Search Billing, DSL Broadband, Customer Name, ZIP Code, Cirucit ID
+- SSP360, Order Number, Billing Telephone, Account Number, Billing Account
+- VDI Express, Telephone, Email ID
+- Coffee,
+-
+=================================================================================
+Verizon:
+Z117601 -DAVID
+Z411609 - Shawn
+z614519 -John
+Z613346 - DAVID
+z250348 -Jim
+v781z84 -(Vcode) -Tyler
+z592009 -Chantelle
+=================================================================================
+Comcast:
+51812 -Travis
+4278 Roel
+=================================================================================
+Time Warner Cable:
+EID - V454172 Ryan
+=================================================================================
+Charter Communications
+Chase-L3L
+=================================================================================
+Sasktel:
+Portal:
+Simon:
+Customer Centre:
+Martins:
+=================================================================================
+att:
+JM038W -Jay
+Account Look-up Tools, Support Lines, and Sites:
+AT&T - http://www.att.com/
+U-verse Support: 1-800-288-2020
+Employee IDs - md905c
+• Systems: G2, CCTP, SystemX, Clarify, Telegence, MyCSP, Phoenix, Torch, CSR Admin, CTI, Agent Verification System, CCC Tool, DLC, C-Care
+Sky - http://www.sky.com/
+Sky Tech Sppport: 0-844-241-1653
+• Systems: Cloud
+Cox - http://ww2.cox.com/residential/home.cox
+Cox Support: 877-891-2899
+• Systems: Polaris (IP), iNav, edgehealth, Icon, IDM, ICOMS, SL2
+Charter - https://www.charter.com/?
+Charter Support: 713-554-3669
+• Systems: Sigma, IRIS
+Comcast - http://www.comcast.com/
+Comcast Support: 1-800-934-6489
+• Systems: ACSR, Comtrac, CSG, Einstein, Grand-slam, Vision
+Time Warner - http://www.timewarnercable.com/
+Time Warner Support - 212-364-8300
+• Systems: Real, Unify
+Road Runner - http://www.rr.com/
+Road Runner Support: 1-866-744-1678
+• Systems: Real, Unify
+Verizon - http://www.verizonwireless.com/
+Verizon Support: 1-800-837-4966
+• Systems: Coffee
+Items that are capable for look up:
+Name on file:
+DOB on file:
+SSN on file:
+Phone on file:
+Address on file:
+ISP Account #:
+Primary Account Email:
+Credit Card on File:
+Other Tools / Sites / Providers:
+Shaw: TOGAF, Marshall White, CF60, Calgary Call Center
+Rogers: Icm (can't do ips, but account number/phone number), Sgi (finding more info on account)
+Bell: Maxplus, CSM 1 Bill, Singleview
+Charter: Sigma, IRIS
+Netflix: Obiwan
+Verizon: Cofee, Legend, ASCRR (Business)
+Yahoo: AMD, Star
+T-Mobile: QuickView, Remedy, SAMSON, NCI, T-COMMUNINITY, IHLR
+CenturyLink: Qwest Repair Expert[QRX], Facility Check
+Charter: Sigma, IRIS
+Comcast: ACSR, Comtrac, CSG, Einstien, Grandslam (No longer used by comcast; Main tool is Einstein now.), Vision
+Sprint: iCare
+Time Warner / Road Runner / Brighthouse: Real, Unify
+Telus: Smart Desktop, Cosmo, Parter, Desktop One, Synapsis (IP LOOKUPS), Office Communicator
+Optimum Online: TDA
+Paypal: Compass, Admin
+Amazon: CRC, IVR
+Windstream: DataCannon
+AT&T
+Phone Number: 1 (800) 288-2020
+Systems: CCTP, G2, CARE, Telegence, Clarify, Phoenix, OMS, CRM, Enabler, OPUS, POSII, Compass, Ordertrack, myCSP, NBI, Ensemble, Xacct, PTT
+ 
+Yahoo
+Live Chat: https://io.help.yahoo.com/contact/index?...=PROD_ACCT
+Systems: AMD, Star
+ 
+Cox
+Phone Number: 1 (800) 229-6542
+Live Chat: https://www.cox.com/support/emailchat/chatusenglish.asp
+Systems: SL2, iComs, iNav, Edgehealth, Remedy, Quikway, Tivia
+ 
+Charter
+Phone Number: 1 (888) 438-2427
+Live Chat: http://www.myaccount.charter.com/Visitors/chatlive.aspx
+Systems: Sigma, IRIS
+ 
+Comcast
+Phone Number: 1 (800) COMCAST
+Live Chat: https://www.comcastsupport.com/chatentry/
+Systems: ACSR, Comtrac, CSG, Einstien, Grandslam (No longer used by comcast; Main tool is Einstein now.), Vision (NOTE: Only Grandslam (No longer used by comcast; Main tool is Einstein now.) can do IP address lookups.)
+Employee Name: Gilbert
+Employee ID: 100-499-892
+Employee Region: Boston
+Employee SV: Anthony
+ 
+Netflix
+Phone Number: 1 (866) 579-7172
+Live Chat: https://help.netflix.com/help#startChat
+Systems: Obiwan
+ 
+Sprint
+Phone Number: 1 (866) 866-7509
+Systems: CICS, DB2, MQ, ADABASE, REXX, VSAM
+ 
+Time Warner / Road Runner
+Username Retrieval: https://urt.rr.com/
+Password Reset: http://pt.rr.com/
+IP Management Tool: https://ipmt.rr.com/ipmt/login.jsp
+Phone Number: 1 (855) 800-1925
+Live Chat: http://www.timewarnercable.com/en/reside...ct-us.html
+Systems: Real, Unified, AAD, ACSR, ATG Tools, iComs, DOCSIS. (DOCSIS, Unified, and Real do IP lookups)
+Name: Darryl Estes
+EID: E12145
+Location: TW-Raleigh in Raleigh, NC
+ 
+Verizon
+Login: https://www22.verizon.com/cofee/content/...login.aspx
+Phone Number: 1 (800) 837-4966
+Live Chat: http://www.verizon.com/Support/Residenti.../index.htm
+Systems: Cofee, Legend, DTI Express, iView, iGO, CPE Manager, Marval, Telegence
+LCT Home Office:
+ 
+Name: Brett
+Location: Redmond, WA
+OSID: GFA*667
+ 
+Name: Andrew
+Location: New York, New York
+OSID: Z479046
+ 
+Shaw:
+Systems: TOGAF
+ 
+Rogers:
+Systems: ICM and STI
+ 
+Bell:
+Systems: Maxplus, CSM 1 Bill, Singleview (Singleview does IPs)
+Name: Vipin
+Employee ID: 604084
+Name: Shamari
+Employee ID: EY17429
+ 
+T-Mobile:
+Systems: QuickView, Remedy, SAMSON, NCI, T-COMMUNINITY, IHLR
+ 
+Opt Online:
+Systems: TDA
+ 
+PenTeleData:
+Login: http://www2.engr.ptd.net/
+Login: http://server4.engr.ptd.net/login/login.cgi
+Webmail: https://promail.ptd.net/
+Usernames: admin
+System: Smart System
+Name: Joann
+CFR: CSR2 (Employee ID)
+Position: Supervisor 2 PenTeleData, Corporate Office
+ 
+Paypal:
+Systems: Compass & Admin
+ 
+Fido / Micro-Cell
+Systems: ICM - Looks up the account information, Citrix - log into the account
+ 
+CenturyLink:
+Systems: Ensemble
+ 
+Frontier:
+Systems: JWalk and iNet
+ 
+Blue Ridge:
+Systems: iComs
+ 
+Cogent:
+Systems: SSRS and Remedy Ticketing System
+Charter
+Hello My Name is Andrew and I'm from the Charter Customer Support in
+Greenville South Carolina and i cant access the clients information
+our systems are not working could you please provide some details on the
+client for me?
+Comcast
+Hello my name is Andrew and I'm from the Comcast Customer Support in
+(VICTIMS AREA) and i cant access the clients information my
+Grandslam (No longer used by comcast; Main tool is Einstein now.) cannot connect and im recieving errors. Will you plesae look up
+the information on the client for me?
+Verizon
+Hello my name is Thomas and I'm from the Verizon Customer Support in
+Danvillge and i cant access the clients information my
+Legend/Iview (use any) cannot connect and im recieving errors. Will you plesae look up
+the information on the client for me?
+AT&T
+Hello my name is Thomas and I'm from the AT&T Customer Support in
+Danville and i cant access the clients information my
+G2 (use any) cannot connect and im recieving errors. Will you plesae look up
+the information on the client for me?
+General method:
+You'll be most successful in getting agents to pull up info by calling the internet technical support for the company, telling an agent you're an internet technical representative, and telling them your systems are down at your call center. Then give them whatever information you have, and get them to pull it up in one of their tools.
+=================================================================================
+AT&T Info:
+Tools:
+SystemX - Shows IP, what account it is, lookup by address, runs credit checks, see driver license.
+Clarify - Looks up account and logs into the account. Can do full social, ip, phone number, and name.
+Telegence - Shows account information including last four of the ssn.
+MyCSP - Opens up Torch, SystemX, etc.
+Phoenix - Change phone numbers, rate plans, etc.
+Torch - Text messager.
+CSR Admin - Logs into MyATT account.
+CTI - Transfer calls.
+Agent Verification System - Verifies employee ID.
+CCC Tool - Removes subscriptions.
+DLC - See how long the phone has been in service.
+C-Care - Checks for upgrades.
+Employee ID:
+First 2 Initials, first 3 of the Social, letter at the end.
+Example:
+Name: Larry Stevenson
+SSN: 306-89-7661
+UID: LS306Z
+Employee Logins:
+Computer:
+Username = UID.
+Password is set by the agent. Changes every month.
+Tool Portals:
+Username = UID.
+Password is either randomized or set by the agent. Changes every three weeks.
+Computer Info:
+OS is Windows 7 with an Windows classic theme.
+Virus protection is McAfee.
+Some connect wired and some are wireless.
+WiFi names are "AT&T" followed by a number.
+Online Access:
+https://access1.sbc.com/
+https://mycsp.cingular.com/mycspportal/a...abel=login
+https://attathome.att.com/athome_web/index.jsp
+https://sso.sl.attcompute.com
+https://attawardslink.com
+https://att.corporateperks.com/login
+=================================================================================
+¦¦¦¦¦
+Verizon:
+Tools:
+CoFee - Main tool agents use. Looks up accounts by phone number, name, etc.
+CPE Manager - Looks up accounts by the IP address.
+Legend - Another tool agents use to pull info off an account.
+CoFee Login:
+https://www22.verizon.com/cofee/cpm/login/login.aspx
+=================================================================================¦¦¦
+Comcast:
+Tools:
+Grandslam (No longer used by comcast; Main tool is Einstein now.) - Looks up by IP, SSN, phone, and more.
+ASCR - Looks up account.
+Einstein - Looks up account.
+Every Comcast tool is within Grandslam (No longer used by comcast; Main tool is Einstein now.) as Grandslam (No longer used by comcast; Main tool is Einstein now.) is Comcast's "master tool".
+=================================================================================
+Time Warner / Roadrunner / Brighthouse:
+Call 1800-TWCABLE. Enter in a phone number and zip in the area of the IP address. Once an agent picks up tell them a fake name, you work for TWC internet tech support, and you were having trouble looking up a customers account with AAD. Then ask them if they can transfer you to tier 3. They will transfer you then. Once you get transferred to tier 3 say your name and your work for TWC internet tech support. Tell them you were having trouble pulling up an account by IP address. Say that Unified was giving you an error not found. Tell them you don’t have DOCSIS and ask them if they can look up the account in that. They should do it, so give them the IP. Once they pull up the account ask for these things in the order listed:
+-Name
+-Phone
+-Address
+-MAC Address
+-User ID
+-Email
+-Account Number
+After this point if you ask for anything else they may get suspicious. They may give it to you, or you might have to call back. Try asking for this information on the account.
+-Security measure: Last 4 of the ssn and/or the 4 digit pin code
+-customer code
+-full driver license
+After you get that call back TWC and ask to reset your password. Say you forgot the SQA. They will ask for the security measure and customer code then they’ll reset it.
+You’ll want access into the primary email and the MyServices feature.
+Make sure you get both reset, but sometimes you’ll have to create the MyServices account.
+Also if you want the SSID and network password go to the WiFi live chat once logged into the target’s account. The agents will ask for some information in order to verify you then they’ll ask for the modem MAC address. Give them the MAC address the employee read out to you earlier when you asked them for the MAC address on file. They should then provide you with the SSID name and password.
+Resources:
+Username Retrieval: https://urt.rr.com/
+Password Reset: http://pt.rr.com/
+Tools:
+AAD - Used to pull up the account once they have the information on the customer.
+Unified - Pulls up by MAC, IP, etc.
+ATG Tools / DOCSIS - Basically TWC’s “master tool”. Can do just about anything.
+If you’re ever asked for an employee ID just use this. It’s legitimate.
+Employee Info:
+Name: Darryl Estes
+EID: E12145
+Location: TW-Raleigh in Raleigh, NC
+Regions:
+Austin RDC
+TW-Austin
+TW-Beaumont
+TW-ColumbusTX
+TW-CorpusChristi
+TW-DelRio
+TW-Dilley
+TW-EaglePass
+TW-ElPaso
+TW-Gonzalez
+TW-KansasCity
+TW-Kerrville
+TW-Laredo
+TW-Lincoln
+TW-NorthTexas
+TW-RioGrandeValley
+TW-SanAntonio
+TW-Texas Regional
+TW-Uvalde
+TW-Waco
+TW-WitchitaFalls
+Bright House Network RDC
+TW-Bakersfield (Bright House)
+TW-Birmingham
+TW-Cantonment
+TW-CentralFL
+TW-Defuniak
+TW-Detroit (Bright House)
+TW-Elmore
+TW-Eufaula
+TW-Greenville
+TW-Indianapolis (Bright House)
+TW-TampaBay
+Charlotte NDC RDC
+NDC-Charlotte
+Columbus RDC
+IN-Columbus
+TW-KYN
+TW-Louisville
+TW-MOH
+TW-Milwaukee
+TW-NEO
+TW-NEW
+TW-Regional Midwest
+TW-SWOH
+TW-WesternOhio
+Coudersport RDC
+TW-Coudersport
+Herndon RDC
+TW-Herndon
+NYC RDC
+TW-Bergen
+TW-Liberty
+TW-NYCity
+TW-StatenIsland
+Orange RDC
+TW-DesertCities
+TW-Hawaii
+TW-LosAngeles
+TW-Mountain
+TW-MountainWest
+TW-Northwest
+TW-SanDiego
+TW-Southwest
+Peakview RDC
+NDC-Peakview
+TW-Allegeny
+TW-Broomfield
+TW-CentralKYOH
+TW-Clarksburg
+TW-Dothan
+TW-MOOKKS
+TW-Peakview Regional
+TW-Southeast
+TW-TerreHaute
+TW-VoIP
+TW-WesternKY
+Raleigh RDC
+TW-Charlotte
+TW-Columbia
+TW-Fayetteville
+TW-Greensboro
+TW-Raleigh
+TW-Regional-Carolinas
+TW-Wilmington
+Syracuse RDC
+TW-Albany
+TW-Athol
+TW-Berlin
+TW-Binghamton
+TW-Buffalo
+TW-CentralNY
+TW-Keene
+TW-Lancaster (National division)
+TW-Portland
+TW-Rochester
+TW-Syracuse Regional
+TSG RDC
+TW-TSG
+ 
+This isn’t really a part of the social engineering lesson, but here are some TWC employee tools accessed online.
+https://tools.rdc-nyc.rr.com/
+https://uptime.rdc-kc.rr.com/
+https://tools.nyroc.rr.com/
+https://tools.tampflrdc.rr.com/docsis/
+https://tools.ohiordc.rr.com/
+https://docsis-tools.tampabay.rr.com/
+https://tools.ohiordc.rr.com/onodera/
+https://tech.indy.rr.com/
+https://tech.insight.rr.com/
+You can find more by using the following Google dork:
+https://www.google.com/#q=inurl:tools+si...ery.rr.com
+=================================================================================
+Cox:
+Tools:
+Edgehealth - Looks up by IP and MAC.
+ICOMS - Looks up account.
+SL2 - Looks up account.
+=================================================================================
+Optimum Online:
+Tools:
+TDA - Billing tool.
+=================================================================================
+T-Mobile:
+Tools:
+Quickview - Looks up account.
+Watson - Looks up account.
+=================================================================================
+CenturyLink:
+Tools:Cox Communications ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 2.5
+====Tools====
+- Edgehealth // The primary modem provisioning tool, Search box'sBiggrinocsis CPE, MTA IP, Phone number, MAC Address, Account number, SSN, Address.
+- Inav
+- SL2
+- ICOMS
+- Polaris
+- Optix
+- CATS
+- SOAK
+- Netweather / Digiweather (Las Vegas Call Center Exclusive)
+- Granite
+- Vision Tools
+- KCUI
+- Intermanager
+====IP lookups====
+Method 1.: For Cox IP lookups you can tell the agent to open up the Edgehealth tool and there should be a search box labeled "Docsis CPE" which you can enter an IP Address in and it will return the customers name, phone number and address!
+=================================================================================
+AT&T Uverse ISP Doxing(Employee Method)
+====Tools====
+- G2
+- U.S-DOT // One of at&ts backup tools which means they normally don't use it unless their tools are down!
+- CRM
+- CAP
+- MYCSP
+- Clarify
+- Telegence
+- Enabler
+- CARE
+- OPUS
+- Pheonix
+- PTT
+- NBI
+- SDP
+ 
+====IP lookups====
+Method 1.: For Uverse IP lookups tell the agent to go into the G2 Tool then to go into the trans history search area and there will be 3 search box's:IP, IP Netblock and IP Assigned. Tell them to search the IP address up in the IP search box and it will return a BAN number as a search result, which can then be looked up in CRM for the full account information!
+Method 2.: For Uverse IP lookups tell the agent to open their backup tool called U.S-DOT which can lookup ip's!
+=================================================================================
+Time Warner Cable ISP Doxing(Employee Method)
+====Tools====
+- Real // The primary tier 1 modem provisioning tool, Search Box's:Cable Modem, MTA, CPE
+- Unified // The secondary tier 1 modem provisioning tool, Search Box's:All, Name, Account Number, Phone Number, MAC Address, QMTC, CMTS, Service Area, VOD, HUB, Node.
+- AAD(Advanced Agent Desktop) // The primary tier 1 billing tool.
+- Genocide
+- DOCSIS/ATG(Level 3/Tier 3 Only) // The tier 3 master tool for modem provisioning/billing, Search Box's:Modem Mac, Mta Mac, Modem Ip, Cpe Ip, Mta Ip, Account Number, User ID, Phone Number, Subscriber Name
+- Daycare
+- ACSR
+- ICOMS // The notorious billing system that almost every ISP uses.
+- Big Brother
+- Netcool
+- CSG
+- NYROC(BrightHouse Networks Version of DOCSIS)
+- Arris Workforce Management
+====IP lookups====
+Method 1.:Tell the agent to go into Real and to go to the What is the entity name? tab and then to the What are you looking for? area and then they will be 3 search box's:Cable Modem, MTA and CPE.You can try getting the agent to lookup the IP in the CPE search box and if it returns "discovery not found" which means the search returned no results possibly due to the agents location or what division/market was set on real you can have the agent set the division on real to the one of the IP's location so then when they type the IP in the CPE search box results should come up, another way you can do IP lookups in real is you tell the agent to look the IP up in the Cable Modem search box and it will bring up all mac addresses ever associated with the IP including active and inactive accounts!
+Script:"Hello this is Micheal Jones from Time Warner Cable technical support level 2, all my tools seem to be down like real and unified and I need assistance pulling up this customers account so can you help me? open up the tool real sir and then when you open up real there should be a main search box and just type this IP Address into the box and all the information should come up tell me when you have an account pulled up sir."
+Method 2.:Tell the agent to go into Unified and they will be 11 search box's:All, Name, Account Number, Phone Number, Mac Address, QMTC, CMTS, Service Area, VOD, HUB, Node.Tell the agent to set his division/market to the one associated with the IP's location then tell the agent to type the IP Address in to the search box labeled "All" and all the account results should come up!
+Method 3.: Tell the agent to transfer you to Tier 3/Level 3 and those agents have access to a special tool known as ATG/Docsis.Tell the agent to open DOCSIS up and they will be 9 search box's:CPE IP, MTA IP, Cable Modem IP, Account Number, User ID, Phone Number, Subscribers Name, Modem MAC, MTA Mac.Tell the agent to search the IP Address up in the CPE IP search box and it will return all the information on the customer including the service address, MAC Address of the modem, account holder name and of course a phone number!, make sure to ask for these details nicely.Note*:Some Tier 1/Level 1 agents can open up DOCSIS as well.
+===Format===
+IP:
+Name:
+DL:
+SSN:
+Phone Number:
+Address:
+Account Number:
+Skype:
+MAC Address: // Device MAC // Cable MAC
+Joshua: 189109
+=================================================================================
+Comcast Cable ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 3
+====Tools====
+- Grandslam (No longer used by comcast; Main tool is Einstein now.) // The primary tool that does modem provisioning tasks and can lookup the account by anything, Search Box'sTonguehone Number, Account Number, Postal Address, City/State/Zip, First/Last name, Email Username, IP Address(Greyed out in the new Grandslam (No longer used by comcast; Main tool is Einstein now.) update, useless), DNS Lookup, Ticket Number, CDV(Comcast Digital Voice) Number, MAC Address, Social Network ID, Previous Accounts.
+- Vision
+- Comtrac
+- ASCR
+- Einstein // The help-desk like tool for employees which can also search customer accounts and this tool also replaced the old help desk system known as CASPER, Search Box'sTonguehone Number, Account Number, Postal Address, City/State/Zip, First/Last name, Ticket Number, CMAC, DNS Lookup, Previous Accounts.
+- ERone
+- CSG
+- ITG
+- BAM
+- Competitive Edge
+- Ninjato
+- Daycare
+====IP lookups====
+Method 1.: For Comcast IP lookups you can tell the agent to use the Grandslam (No longer used by comcast; Main tool is Einstein now.) tool which has a search box labeled "IP Address" and have them type the IP into that and it will return all the details on the customer. This method has been patched as of january 2014 the "IP Address" search box has been greyed out!(Patched)
+Method 2.: For Comcast IP lookups you can tell the agent to use the Grandslam (No longer used by comcast; Main tool is Einstein now.) tool which has a search box labeled "DNS Lookup" under the greyed out IP Address box which can also pull accounts up by the IP Address, so just tell the agent to type the IP Address in it and the account results should show up! Normally this search was made for DNS related comcast IPS like this one for example:69.252.250.103, which have the hostname dns101.comcast.net but it seems to also pull up CPE(Customer Premise Equipment) IP's as well, so this looks like a bad implementation error on their end.
+Method 3.: For Comcast IP lookups you can tell the agent to use the Comtrac tool which has a search box labeled "IPV4" which can pull up the customers account details after the agent types the IP address in it so the results should show up.
+Method 4.: For Comcast IP lookups you can tell the agent to use the Einstein tool which has a search box labeled "DNS Lookup" which can pull up accounts by the IP Address and it will return the full account results.
+Method 5.: For Comcast IP lookups you can tell the agent to transfer you to the Network Solutions department and the IP Address search field on their Grandslam (No longer used by comcast; Main tool is Einstein now.)s aren't grayed out and you can do IP searches.
+=================================================================================
+Verizon FiOs ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 3
+====Tools====
+- CoFee
+- CPE Manager
+- Legend
+- Info Desk
+====IP lookups====
+Method 1.: For Verizon FiOs IP lookups you can tell the agent to use the CPE Manager tool which has a STB(Set-Top Box) Tracking tab and on it theres an search box labeled "WAN IP" which you can look the IP Address up in and then it will show how many set box's the customer currently has then you tell the agent to look up the Circuit ID and it will pull up the whole entire account!
+======================================================================================
+Jonathan - Z381533
+David - Z646290
+Shawn - Z411609
+108.0.244.22
+=================================================================================
+Windstream Communications ISP Doxing(Employee Method)
+====Tools====
+- Datacannon
+====IP lookups====
+Method 1.: For Windstream IP lookups tell the agent to open up the Datacannon tool, then on Datacannon you tell the agent to type the IP Address in the search box labeled "IP", it will then return a modem serial number which you ask the agent for nicely and then you can either have the agent lookup the modem serial number in another tool or you can call back and have the modem serial number looked up by another agent!
+=================================================================================
+Wide Open West ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 3
+====Tools====
+- ICOMS // The only tool tier 1 agents have, this is just a basic billing tool to pull up accounts via basic info like address and phone number.
+- M.U.S.T(Modem, Upgrades and Statistics Tool) // The main tier 2 tool used for modem upgrades, can also search modem and CPE ip's to pull up accounts.
+- ALOPA // The tier 3 master tool, can do CPE, MTA and cable modem searches.
+- Spark // The tool agents use to chat with other agents using a chat room system.
+- Kronos // The agents use this tool to clock in/out of their shift.
+====IP lookups====
+Method 1.: For WOW IP Address lookups tell the agent to open the MUST(Modem Upgrades and Statistics Tool) tool and it has a main searchbox for cable modem lookups so just have the agent type the IP address in the main search box labeled "CM IP or MAC Address" and it will pull up the modem information.
+Method 2.: For WOW IP Address lookups tell the agent to transfer you to tier 3 or home networking department.Once your at tier 3 or home networking department, have the agent do a CPE search on the ip using the ALOPA tool.
+=================================================================================
+Suddenlink Communications ISP Doxing(Employee Method)
+===Tiers====
+- 1
+===Tools====
+- ICOMS
+- Mystro
+- Tulse
+====IP lookups====
+Method 1.: For Suddenlink IP Address lookups tell the agent to use the tulse tool and theres a search box thats labeled "Data CPE IP", so have them type the IP address into that and it will pull up the full account results!
+=================================================================================
+CenturyLink ISP Doxing(Employee Method)
+===Tiers====
+- 1
+- 1.5
+===Tools====
+- Radius // Primary tool tier 1.5 uses for CPE IP Searches.
+- RX // Search BoxTongueoll DSLAM
+- KGB2
+- Qview
+- H.S.I // Agent's use this tool to chat with other tier 1's and tier 1.5 agents which can do CPE searches on IP's using Radius.
+- Qrad(User Assigned IP Address)
+- Remedy
+- TRACS
+- MARTENS
+- Ensemble
+====IP lookups====
+Method: For Centurylink IP lookups tell the agent to open up the HSI tool and to open up a chat with a tier 1.5 agent and have the tier 1.5 agent do a cpe search on the IP Address and if it appears out of scope tell the them to transfer you to century legacy support and have them lookup the IP, remember you need a working CUID or they will not provide information.
+Method 2.: For Centurylink IP lookups tell the agent to open up the Qrad tool and on it theres a search box labeled "User Assigned IP" which pulls up the full account.
+=================================================================================
+9C:97:26:59:8B:57
+Frontier Communications ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+- 3
+====Tools====
+- Jwalk
+- Inet
+- Spark // Agents use this tool to chat with tier 1's in their team and tier 2's.
+- Peakflow
+- Netcool
+- Solarwinds
+- Nagios
+===IP Lookups===
+Method 1.:For Frontier IP Lookups you tell the agent to transfer you to tier 3 then you use the "" tool.
+=================================================================================
+Optimum Online ISP Doxing(Employee Method)
+===Tools====
+- IDA
+- IDA Lite
+- Boost
+- TriO
+- Sear
+- KDE
+- CableData
+- Groupwise
+- Modem Control
+- ZOOM
+- KOMS
+- Dart
+- Remedy
+===IP Lookups====
+Method 1.: For Optimum Online IP lookups, tell the agent to open up the Sear tool and to do an IP Address search.
+=================================================================================
+Charter Communications ISP Doxing(Employee Method)
+====Tiers====
+- 1
+- 2
+====Tools====
+- Sigma // The primary billing tool, Search Box's:First + Last Name, FQID, Address, MAC ID, Email
+- IRIS // The secondary billing tool, Search Box's:First + Last name, Address
+- CSR Admin
+- D.R.U.M // Main tool for modem provisioning tasks and it also can practically search by anything, Search Box's:CPE IP, MTA IP, Modem IP, MAC Address, Address, First + Last Name.
+- Netcool
+- MARS
+- Hammer
+- Webtop
+- Everstream
+- Tekmark Proviser
+===IP Lookups===
+Method 1.: For Charter IP Lookups tell the agent to use the D.R.U.M tool and theres a search box labeled "CPE-IP", so tell the agent to type the IP in that box and it should search for the modem information and a name and mac address should pull up.You then have the agent search the mac address up in CSG and it will pull up the full account information.
+Charter Communications
+Chase - L3L
+=================================================================================
+Mediacom Communications ISP Doxing(Employee Method)
+====Tools====
+- ASCR
+- RDP
+====IP Lookups===
+Method 1.:?
+=================================================================================
+AT&T DSL ISP Doxing(Employee Method)
+==Tools==
+- CSR Admin
+- Unisync
+- CPSauce
+- CRM
+- OSS
+===IP Lookups===
+Method 1.: For AT&T DSL IP lookups tell the agent to type the IP Address in the main search criteria box on OSS and it will show if the connection is active and will pull up the current Username of whoever currently has the IP Address assigned to them, you then tell them to look up the username in CRM and it will pull up the rest of the account details.
+=================================================================================
+Clear Wireless ISP Doxing(Employee Method)
+==Tools===
+- Boss
+- Salesforce
+- Blue Avalanche
+- Cheetah
+- Clear Fax
+===IP Lookups===
+Method 1.:For Clear Wireless IP Lookups you transfer to tier 2 then see if they can do a cpe search if not they will transfer you to tier 3 that can do CPE searches.
+=================================================================================
+RCN ISP Doxing(Employee Method)
+===Tools===
+- ICOMS // The notorious billing system that almost every ISP uses.
+- TEAD
+- Lighthouse
+- ASPECT
+- PWS
+- NPAC/LSOA
+- Lotus Notes // The primary feedback system used to write notes on things.
+===IP Lookups===
+Method 1.:
+=================================================================================
+Fairpoint Communications ISP Doxing(Employee Method)
+===Tools===
+?
+=================================================================================
+TalkTalk ISP Doxing(Employee Method)
+===Tools===
+- Singleview // The primary modem provisioning tool.
+- Subportal // The primary billing tool.
+- PortalPay // The secondary billing tool.
+===IP Lookups===
+Method 1. : For TalkTalk IP lookups tell the agent to type the IP Address in singleview!
+=================================================================================
+Sky Broadband ISP Doxing(Employee Method)
+===Tools===
+- Lama
+- SPM (Superman) - IP Lookups
+- Iris
+===IP Lookups===
+Method 1. : For Sky Broadband IP lookups tell the agent to type the IP Address in superman.
+=================================================================================
+====Law Enforcement Impersonation (Subpeona Method)====
+The second way to ISP dox someone is to fake a cop or federal agency of law enforcement to gather information attached to an IP Address.This method is notoriously used by the blackhat hacker killerpop89 before he got owned by cosmo and the rest of ugnazi.Unlike
+employee impersonation this method is a wee bit harder but it is possible.First you want to find the subpoeona compliance line or similiar law enforcement helpline which I will provide all the contact information below for all the common ISP's.Sometimes if you can't social engineer the legal department fully they may keep asking you to send in a subpeona which you can photoshop a legit looking one and to send it in you can use a service like efax (efax.com).After all that is done you should get the information sent to you over phone or over email.
+TL;DR:
+1) Draft up a fake subpoena for the IP adress you're targeting
+2) send the subpoena into the ISP for the IP adress
+3) call legal department after hours, you will be transferred to general support
+4) tell general support you're calling RE: subpoena and tell them you need the information ASAP.
+5) They will happily disclose anything you want to know regarding the account
+=================================================================================
+Paypal
+====Tools====
+- Compass
+- Admin
+=================================================================================
+BellAliant
+====Tools====
+- Singleview
+- CSM
+- INTERNET
+- WEBCARE
+- Infernet
+Number: (888)214-7896
+=================================================================================
+Verizon DSL
+====Tools====
+- Focus Net, STB - Search Billing, DSL Broadband, Customer Name, ZIP Code, Cirucit ID
+- SSP360, Order Number, Billing Telephone, Account Number, Billing Account
+- VDI Express, Telephone, Email ID
+- Coffee,
+-
+=================================================================================
+Verizon:
+Z117601 -DAVID
+Z411609 - Shawn
+z614519 -John
+Z613346 - DAVID
+z250348 -Jim
+v781z84 -(Vcode) -Tyler
+z592009 -Chantelle
+=================================================================================
+Comcast:
+51812 -Travis
+4278 Roel
+=================================================================================
+Time Warner Cable:
+EID - V454172 Ryan
+ 
+Forge Pre-typed Method (TWC):
+-----------------------------------------
+Goodevening my name is Gabe and I'm from Timewarner Technical Support in
+Raeleigh currently the client im talking with via live chat is having issues
+accessing their account and the systems here in Raeleigh are down due to a storm
+would you mind assisting me in pleasing this client in the most professional way
+possible?
+ 
+Use this if you use this method:
+***NOTE: DO NOT GIVE OUT YOUR EMPLOYEE ID UNLESS YOU ARE QUESTIONED IF THEY GET SUSPICIOUS HANG UP AND RECALL***
+Employee Name: Gabe
+EID: E12136
+=================================================================================
+Charter Communications
+Chase-L3L
+=================================================================================
+Sasktel:
+Portal:
+Simon:
+Customer Centre:
+Martins:
+=================================================================================
+att:
+JM038W -Jay
+Account Look-up Tools, Support Lines, and Sites:
+AT&T - http://www.att.com/
+U-verse Support: 1-800-288-2020
+Employee IDs - md905c
+• Systems: G2, CCTP, SystemX, Clarify, Telegence, MyCSP, Phoenix, Torch, CSR Admin, CTI, Agent Verification System, CCC Tool, DLC, C-Care
+Sky - http://www.sky.com/
+Sky Tech Sppport: 0-844-241-1653
+• Systems: Cloud
+Cox - http://ww2.cox.com/residential/home.cox
+Cox Support: 877-891-2899
+• Systems: Polaris (IP), iNav, edgehealth, Icon, IDM, ICOMS, SL2
+Charter - https://www.charter.com/?
+Charter Support: 713-554-3669
+• Systems: Sigma, IRIS
+Comcast - http://www.comcast.com/
+Comcast Support: 1-800-934-6489
+• Systems: ACSR, Comtrac, CSG, Einstein, Grand-slam, Vision
+Time Warner - http://www.timewarnercable.com/
+Time Warner Support - 212-364-8300
+• Systems: Real, Unify
+Road Runner - http://www.rr.com/
+Road Runner Support: 1-866-744-1678
+• Systems: Real, Unify
+Verizon - http://www.verizonwireless.com/
+Verizon Support: 1-800-837-4966
+• Systems: Coffee
+Items that are capable for look up:
+Name on file:
+DOB on file:
+SSN on file:
+Phone on file:
+Address on file:
+ISP Account #:
+Primary Account Email:
+Credit Card on File:
+-------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+Mega List (2) (Mainly Public methods in this one):
+---------------------------------------------------
+Cox
+Name: Shamari Jones
+Employee ID: EY1347
+Windstream
+Name: Josh
+Employee ID: n998488
+Mediacom
+Systems:
+MTA \\ MTA can lookup the account via IP address.
+Mistro \\ Other
+Servicer \\ Other
+Remedy \\ Other
+ 
+Goodevening my name is Jonah and I'm from Cox Customer Support in
+Akron currently the client im talking with via live chat is having issues
+accessing their account and the systems here in Raeleigh are down due to a storm
+would you mind assisting me in helping this client get the best service possible?
+-----------------------------------------
+AT&T
+Phone Number: 1 (800) 288-2020
+Systems: CCTP, G2, CARE, Telegence, Clarify, Phoenix, OMS, CRM, Enabler, OPUS, POSII, Compass, Ordertrack, myCSP, NBI, Ensemble, Xacct, PTT
+ 
+Yahoo
+Live Chat: https://io.help.yahoo.com/contact/index?...=PROD_ACCT
+Systems: AMD, Star
+ 
+Cox
+Phone Number: 1 (800) 229-6542
+Live Chat: https://www.cox.com/support/emailchat/chatusenglish.asp
+Systems: SL2, iComs, iNav, Edgehealth, Remedy, Quikway, Tivia
+ 
+Charter
+Phone Number: 1 (888) 438-2427
+Live Chat: http://www.myaccount.charter.com/Visitors/chatlive.aspx
+Systems: Sigma, IRIS
+ 
+Comcast
+Phone Number: 1 (800) COMCAST
+Live Chat: https://www.comcastsupport.com/chatentry/
+Systems: ACSR, Comtrac, CSG, Einstien, Grandslam (No longer used by comcast; Main tool is Einstein now.), Vision (NOTE: Only Grandslam (No longer used by comcast; Main tool is Einstein now.) can do IP address lookups.)
+Employee Name: Gilbert
+Employee ID: 100-499-892
+Employee Region: Boston
+Employee SV: Anthony
+ 
+Netflix
+Phone Number: 1 (866) 579-7172
+Live Chat: https://help.netflix.com/help#startChat
+Systems: Obiwan
+ 
+Sprint
+Phone Number: 1 (866) 866-7509
+Systems: CICS, DB2, MQ, ADABASE, REXX, VSAM
+ 
+Time Warner / Road Runner
+Username Retrieval: https://urt.rr.com/
+Password Reset: http://pt.rr.com/
+IP Management Tool: https://ipmt.rr.com/ipmt/login.jsp
+Phone Number: 1 (855) 800-1925
+Live Chat: http://www.timewarnercable.com/en/reside...ct-us.html
+Systems: Real, Unified, AAD, ACSR, ATG Tools, iComs, DOCSIS. (DOCSIS, Unified, and Real do IP lookups)
+Name: Darryl Estes
+EID: E12145
+Location: TW-Raleigh in Raleigh, NC
+ 
+Verizon
+Login: https://www22.verizon.com/cofee/content/...2Fcofee%2F
+Phone Number: 1 (800) 837-4966
+Live Chat: http://www.verizon.com/Support/Residenti.../index.htm
+Systems: Cofee, Legend, DTI Express, iView, iGO, CPE Manager, Marval, Telegence
+LCT Home Office:
+Name: Brett
+Location: Redmond, WA
+OSID: gfa*667
+ 
+Shaw:
+Systems: TOGAF
+ 
+Rogers:
+Systems: ICM and STI
+ 
+Bell:
+Systems: Maxplus, CSM 1 Bill, Singleview (Singleview does IPs)
+Name: Vipin
+Employee ID: 604084
+Name: Shamari
+Employee ID: EY17429
+ 
+T-Mobile:
+Systems: QuickView, Remedy, SAMSON, NCI, T-COMMUNINITY, IHLR
+ 
+Opt Online:
+Systems: TDA
+ 
+PenTeleData:
+Login: http://www2.engr.ptd.net/
+Login: http://server4.engr.ptd.net/login/login.cgi
+Webmail: https://promail.ptd.net/
+Usernames: admin
+System: Smart System
+Name: Joann
+CFR: CSR2 (Employee ID)
+Position: Supervisor 2 PenTeleData, Corporate Office
+ 
+Paypal:
+Systems: Compass & Admin
+ 
+Fido / Micro-Cell
+Systems: ICM - Looks up the account information, Citrix - log into the account
+ 
+CenturyLink:
+Systems: Ensemble
+ 
+Frontier:
+Systems: JWalk and iNet
+ 
+Blue Ridge:
+Systems: iComs
+ 
+Cogent:
+Systems: SSRS and Remedy Ticketing System
+ 
+-------------------------------------------------------------------------------------------------
+ 
+Comcast
+Hello my name is Andrew and I'm from the Comcast Customer Support in
+(VICTIMS AREA) and i cant access the clients information my
+Grandslam (No longer used by comcast; Main tool is Einstein now.) cannot connect and im recieving errors. Will you please look up
+
+    the information on the client for me?
